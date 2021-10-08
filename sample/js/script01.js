@@ -9,4 +9,12 @@ $(function(){
         $(".back-blue").hide();
     })
 
+    $("#button03").on("click",function(){
+        $("#box03,#box07,#box08").hide();
+        })
+
+        $("#button04").on("click",function(){
+            $(".box").show();
+            })
+
 })
